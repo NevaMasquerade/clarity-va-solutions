@@ -8,6 +8,7 @@ author: Sarah Jenkins
 date: 2025-06-01T15:50:00.000Z
 tags:
   - post
+  - featured
 image: /assets/images/blog/what-va-does.jpg
 imageAlt: Hands typing on a laptop.
 ---
