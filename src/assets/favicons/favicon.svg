@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.252" height="102.252"><svg id="SvgjsSvg1007" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.252 102.252">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.252px;
+      }
+
+      .cls-2 {
+        fill: #236574;
+      }
+    </style>
+  </defs>
+  <g id="SvgjsG1006" data-name="Layer 1">
+    <circle class="cls-2" cx="51.126" cy="51.126" r="50"></circle>
+    <g>
+      <path class="cls-1" d="M82.528,57.848C28.298,43.972,50.899,14.137,50.899,14.137c0,0,8.391,8.676.185,26.575"></path>
+      <path class="cls-1" d="M47.947,46.026c-5.178,6.861-14.678,10.907-28.224,11.8"></path>
+      <path class="cls-1" d="M19.724,44.404c54.231,13.876,31.629,43.71,31.629,43.71,0,0-8.391-8.676-.185-26.575"></path>
+      <path class="cls-1" d="M54.754,55.651c5.269-6.512,14.611-10.357,27.774-11.224"></path>
+    </g>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

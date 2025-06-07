@@ -1,0 +1,120 @@
+---
+title: 'Tailored Administrative Support | Clarity VA Solutions'
+description: 'Explore our full range of virtual assistant services, from email management to travel planning. Strategic support for your business growth.'
+preloadImg: '/assets/images/interior-banner-m.webp'
+permalink: 'services/'
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <!-- Any page-specific tags that belong in the <head>, such as a page-specific stylesheet -->
+    <link rel="stylesheet" href="/assets/css/services.css" media="print" onload="this.media='all'; this.onload=null;" />
+{% endblock %}
+
+{% block body %}
+    <!-- Page HTML goes here, without a <main> wrapper. The <main> tag is already presented in layouts/base.html -->
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1401">
+    <div class="cs-container">
+        <span class="cs-int-title">Services</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/services/" class="cs-link cs-active">Services</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="../../assets/images/interior-banner-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="../../assets/images/interior-banner.webp">
+        <img decoding="async" src="../../assets/images/interior-banner.webp" alt="" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-2131">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Blaze Forward on Your Path to Productivity</span>
+            <h2 class="cs-title">Tailored Administrative Support Services</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Email Inbox Management & Filtering</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="../../assets/images/email-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="../../assets/images/email.webp">
+                        <img loading="lazy" decoding="async" src="../../assets/images/email.webp" alt="An organized Mac screen on a minimalist, clutter-free desk." width="352" height="440">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Calendar & Appointment Schedulingt</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="../../assets/images/calendar-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="../../assets/images/calendar.webp">
+                        <img loading="lazy" decoding="async" src="../../assets/images/calendar.webp" alt="A calendar on a tablet, an open day planner, and a cup of coffee." width="352" height="440">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Basic Social Media Content Scheduling</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="../../assets/images/social-media-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="../../assets/images/social-media.webp">
+                        <img loading="lazy" decoding="async" src="../../assets/images/social-media.webp" alt="A social media feed on a smartphone." width="352" height="440">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Data Entry & CRM Updates</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="../../assets/images/data-entry-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="../../assets/images/data-entry.webp">
+                        <img loading="lazy" decoding="async" src="../../assets/images/data-entry.webp" alt="A man writing notes from a computer." width="352" height="440">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Travel Planning & Expense Reports</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="../../assets/images/travel-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="../../assets/images/travel.webp">
+                        <img loading="lazy" decoding="async" src="../../assets/images/travel.webp" alt="A person points to Europe on a map. A passport, camera, sunglasses, and a laptop are scattered over the map." width="352" height="440">
+                    </picture>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+{% endblock %}

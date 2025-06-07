@@ -1,134 +1,86 @@
 ---
-title: "About | Code Stitch Web Designs"
-description: "Meta description for the page"
-preloadImg: "/assets/images/cabinets2.jpg"
+title: "Meet Sarah: Your Partner in Clarity | Clarity VA Solutions"
+description: "Learn about Sarah Jenkins, founder of Clarity VA Solutions. Discover our mission to empower solopreneurs with seamless administrative support."
+preloadImg: "/assets/images/interior-banner-m.webp"
 permalink: "about/"
-eleventyNavigation:
-    key: About Us
-    order: 200
 ---
 
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <link rel="stylesheet" href="/assets/css/about.css" />
+    <link rel="stylesheet" href="/assets/css/general-content.css" media="print" onload="this.media='all'; this.onload=null;" />
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source
-                media="(max-width: 600px)"
-                srcset="/assets/images/cabinets2-m.jpg"
-            />
-            <source
-                media="(min-width: 601px)"
-                srcset="/assets/images/cabinets2.jpg"
-            />
-            <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/images/cabinets2.jpg"
-                alt="kitchen cabinets"
-                loading="eager"
-                width="2500"
-                height="1667"
-            />
-        </picture>
-    </section>
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+<div id="banner-1401">
+    <div class="cs-container">
+        <span class="cs-int-title">About Us</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/about/" class="cs-link cs-active">About</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="../../assets/images/interior-banner-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="../../assets/images/interior-banner.webp">
+        <img decoding="async" src="../../assets/images/interior-banner.webp" alt="" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
 
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source
-                        media="(max-width: 600px)"
-                        srcset="/assets/images/cabinets2-m.jpg"
-                    />
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/cabinets2.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/cabinets2.jpg"
-                        alt="cabinets"
-                        loading="lazy"
-                        width="400"
-                        height="563"
-                    />
+<!-- ============================================ -->
+<!--                Main Content                  -->
+<!-- ============================================ -->
+
+<section id="content-page-1401">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="../../assets/images/about-sarah-jenkins.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="../../assets/images/about-sarah-jenkins.webp">
+                    <img loading="lazy" decoding="async" src="../../assets/images/about-sarah-jenkins.webp" alt="people" width="542" height="728">
                 </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source
-                        media="(max-width: 600px)"
-                        srcset="/assets/images/construction-m.jpg"
-                    />
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/construction.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/construction.jpg"
-                        alt="house"
-                        loading="lazy"
-                        width="400"
-                        height="563"
-                    />
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent
-                    Class officelan nonatoureanor mauris laoreet, iaculis libero
-                    quis. Curabitur et tempus eri consequat tincidunt turpis sit
-                    amet imperdiet. Praesent nonatourean olei aptent taciti
-                    sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent
-                    Class officelan nonatoureanor mauris laoreet, iaculis libero
-                    quis. Curabitur et tempus eri consequat tincidunt turpis sit
-                    amet imperdiet. Praesent nonatourean olei aptent taciti
-                    sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet.
-                        Praesent Classei consequat tincidunt turpis sit amet
-                        imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img
-                        class="cs-quote-icon"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-                        alt="gavel"
-                        width="136"
-                        height="77"
-                    />
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
             </div>
         </div>
-    </section>
+        <div class="cs-content">
+            <h1 class="cs-title">More Than Just a Virtual Assistant: Your Partner in Clarity and Growth</h1>
+                <p>
+                    Clarity VA Solutions isn't just about checking off tasks; it's about reclaiming your focus and empowering your success. Founded by Sarah Jenkins, a seasoned virtual assistant with a passion for helping solopreneurs and micro-business owners thrive, we understand the unique challenges you face.
+                </p>
+                <p>
+                    In my previous administrative roles, I saw the stress, the missed opportunities, and the erosion of work-life balance. I wanted to be the solution to that &quot;doing it all alone&quot; feeling. I saw a need and realized that I have the skills to help people reclaim their time. I can help them focus on what truly drives their business and personal satisfaction.
+                </p>
+                <p>
+                    It's gratifying to know I'm helping people achieve the same kind of peace of mind and balance I strive for in my own life.
+                </p>
+                <p>
+                    We believe that every entrepreneur deserves to focus on their core genius, not get bogged down by administrative details. That's why we offer a comprehensive suite of services, tailored to your specific needs, designed to streamline your operations and free you to do what you do best.
+                </p>
+                <p>
+                    <strong>Our Core Values:</strong>
+                </p>
+                <ul>
+                    <li><strong>Clarity:</strong> We bring order to chaos, ensuring your administrative processes are efficient and transparent.</li>
+                    <li><strong>Efficiency:</strong> We maximize your time and resources, providing strategic support that gets results.</li>
+                    <li><strong>Empowerment:</strong> We equip you with the tools and support you need to confidently grow your business and achieve your goals.</li>
+                    <li><strong>Partnership:</strong> We're more than just a service provider; we're your trusted ally, committed to your long-term success.</li>
+                </ul>
+
+        </div>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+                                
 
     {% include 'components/cta.html' %}
 {% endblock %}

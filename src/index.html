@@ -1,19 +1,16 @@
 ---
-title: "Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO"
-description: "Meta description for the page"
-preloadImg: "/assets/images/landing.jpg"
+title: "Reclaim Your Time & Peace of Mind | Clarity VA Solutions"
+description: "Overwhelmed solopreneur? Get expert administrative support for email, calendars, and more. Find work-life balance and grow your business."
+preloadImg: "/assets/images/cvas-hero-m.webp"
 permalink: "/"
 tags: "sitemap" # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
-eleventyNavigation:
-    key: Home
-    order: 100
 ---
 
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <link rel="stylesheet" href="/assets/css/local.css" />
-    <link rel="stylesheet" href="/assets/css/critical.css" />
+    <link rel="stylesheet" href="/assets/css/local.css"  media="print" onload="this.media='all'; this.onload=null;" />
+    <link rel="stylesheet" href="/assets/css/critical.css" media="print" onload="this.media='all'; this.onload=null;" />
 
     <!-- JSON Schema Markup -->
     <!-- prettier-ignore-start -->
@@ -57,570 +54,253 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
 
-    <section id="hero">
-        <div class="cs-container">
-            <div class="cs-flex-group">
-                <span class="cs-topper">mountain hiking society</span>
-                <h1 class="cs-title">Explore the World with Exciting People</h1>
-                <p class="cs-text">
-                    Tincidunt lobortis feugiat vivamus at augue eget arcu dictum
-                    varius. Nibh tortor id aliquet lectus proin nibh
-                    condimentum.
-                </p>
-                <a href="/about" class="cs-button-solid">Explore More</a>
-                <a href="/contact" class="cs-button-transparent">
-                    <img
-                        class="cs-img"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-                        alt="play icon"
-                        width="17"
-                        height="17"
-                    />
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-
-        <!-- Background Image -->
-        <picture class="cs-picture">
-            <source
-                media="(max-width: 600px)"
-                srcset="/assets/images/landing-m.webp"
-            />
-            <source
-                media="(min-width: 601px)"
-                srcset="/assets/images/landing.jpg"
-            />
-            <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/images/landing.jpg"
-                alt="new home"
-                width="2500"
-                height="1667"
-                loading="eager"
-            />
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                  Services                    -->
-    <!-- ============================================ -->
-
-    <section id="services" class="services">
-        <!-- Get Icons From flaticon.com -->
-        <div class="card">
-            <picture>
-                <img
-                    aria-hidden="true"
-                    decoding="async"
-                    src="/assets/svgs/service1.svg"
-                    alt="appliance"
-                    width="48"
-                    height="48"
-                />
-            </picture>
-            <h2>Service 1</h2>
-            <p>
-                Talk about the service with keywords people will be searching
-                for it by. Keep it 1-2 sentences.
-            </p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                    aria-hidden="true"
-                    decoding="async"
-                    src="/assets/svgs/service2.svg"
-                    alt="appliance"
-                    width="48"
-                    height="48"
-                />
-            </picture>
-            <h2>Service 2</h2>
-            <p>
-                Talk about the service with keywords people will be searching
-                for it by. Keep it 1-2 sentences.
-            </p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                    aria-hidden="true"
-                    decoding="async"
-                    src="/assets/svgs/service3.svg"
-                    alt="appliance"
-                    width="48"
-                    height="48"
-                />
-            </picture>
-            <h2>Service 3</h2>
-            <p>
-                Talk about the service with keywords people will be searching
-                for it by. Keep it 1-2 sentences.
-            </p>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source
-                        media="(max-width: 600px)"
-                        srcset="/assets/images/cabinets2-m.jpg"
-                    />
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/cabinets2.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/cabinets2.jpg"
-                        alt="cabinets"
-                        loading="lazy"
-                        width="400"
-                        height="563"
-                    />
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source
-                        media="(max-width: 600px)"
-                        srcset="/assets/images/construction-m.jpg"
-                    />
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/construction.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/construction.jpg"
-                        alt="house"
-                        loading="lazy"
-                        width="400"
-                        height="563"
-                    />
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent
-                    Class officelan nonatoureanor mauris laoreet, iaculis libero
-                    quis. Curabitur et tempus eri consequat tincidunt turpis sit
-                    amet imperdiet. Praesent nonatourean olei aptent taciti
-                    sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent
-                    Class officelan nonatoureanor mauris laoreet, iaculis libero
-                    quis. Curabitur et tempus eri consequat tincidunt turpis sit
-                    amet imperdiet. Praesent nonatourean olei aptent taciti
-                    sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet.
-                        Praesent Classei consequat tincidunt turpis sit amet
-                        imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img
-                        class="cs-quote-icon"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-                        alt="gavel"
-                        width="136"
-                        height="77"
-                    />
-                </div>
-                <a href="/about" class="cs-button-solid">More About Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--            Extra Content To Rank             -->
-    <!-- ============================================ -->
-
-    <section id="sbs-r">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source
-                        media="(max-width: 600px)"
-                        srcset="/assets/images/construction-m.jpg"
-                    />
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/construction.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/construction.jpg"
-                        alt="house"
-                        loading="lazy"
-                        width="400"
-                        height="560"
-                    />
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source
-                        media="(max-width: 600px)"
-                        srcset="/assets/images/cabinets2-m.jpg"
-                    />
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/cabinets2.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/cabinets2.jpg"
-                        alt="cabinets"
-                        loading="lazy"
-                        width="400"
-                        height="560"
-                    />
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">SEO Ranking</span>
-                <h2 class="cs-title">Talk about a main service keyword</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent
-                    Class officelan nonatoureanor mauris laoreet, iaculis libero
-                    quis. Curabitur et tempus eri consequat tincidunt turpis sit
-                    amet imperdiet. Praesent nonatourean olei aptent taciti
-                    sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Non tenetur, iure nihil ipsam qui atque commodi id
-                    voluptatem nesciunt, quis animi fuga cum doloribus! Eaque
-                    laboriosam, unde consectetur iure asperiores ullam.
-                    Consequuntur debitis a voluptatibus vitae optio autem
-                    explicabo quia neque est quas, in placeat. Lorem ipsum dolor
-                    sit amet consectetur adipisicing elit. Doloribus modi
-                    laudantium voluptatibus rem libero error minus quia eligendi
-                    sapiente eos.
-                </p>
-                <a href="/blog" class="cs-button-solid">Read our Blog</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Gallery                    -->
-    <!-- ============================================ -->
-
-    <section id="gallery">
-        <div class="cs-container">
-            <span class="cs-topper">Our Portfolio</span>
-            <h2 class="cs-title">
-                Et orci volutpat, back up generator installations
-            </h2>
-            <div class="cs-image-group">
-                <!-- Row 1-->
-                <div class="cs-row cs-row-1">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port1-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port1.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port1.jpg"
-                            alt="new hallway"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port4-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port4.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port4.jpg"
-                            alt="new home construction"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port7-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port7.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port7.jpg"
-                            alt="building a new wall"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                </div>
-                <!-- Row 2 -->
-                <div class="cs-row cs-row-2">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port2-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port2.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port2.jpg"
-                            alt="new kitchen"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port5-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port5.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port5.jpg"
-                            alt="apartment addition"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port8-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port8.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port8.jpg"
-                            alt="kew kitchen cabinets"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                </div>
-                <!-- Row 3 -->
-                <div class="cs-row cs-row-3">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port3-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port3.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port3.jpg"
-                            alt="new kitchen"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port6-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port6.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port6.jpg"
-                            alt="apartment addition"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source
-                            media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port9-m.jpg"
-                        />
-                        <source
-                            media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port9.jpg"
-                        />
-                        <img
-                            aria-hidden="true"
-                            decoding="async"
-                            src="/assets/images/portfolio/port9.jpg"
-                            alt="kew kitchen cabinets"
-                            loading="lazy"
-                            width="400"
-                            height="560"
-                        />
-                    </picture>
-                </div>
-            </div>
-            <a href="/projects" class="cs-button-solid">View Full Gallery</a>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Reviews                    -->
-    <!-- ============================================ -->
-
-    <section id="reviews">
-        <div class="cs-container">
-            <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Customers</h2>
+<section id="hero-1349">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Reclaim Your Time. Reclaim Your Peace of Mind.</h1>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                dolor volutpat porttitor sagittis nunc nisl. Sagittis sit
-                pellentesque gravida viverra. Leo ut sed euismod tortor risus
-                et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                Which sounds more enjoyable: 10 hours of administrative tasks or 10 hours doing the work you love? Let Clarity VA Solutions handle your busy work, so that you can focus on what matters most. You don't need to sacrifice your work-life balance to scale with confidence.
             </p>
-            <ul class="cs-card-group">
-                <!-- Review 1 -->
-                <li class="cs-item">
-                    <img
-                        class="cs-item-img"
-                        aria-hidden="true"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
-                        alt="profile picture"
-                        width="80"
-                        height="80"
-                    />
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin.
-                        Consequat dolor habitasse nam sed tempor. Viverra magna
-                        pharetra rhoncus, nec sed ullamcorper lectus et. Auctor
-                        velit diam fermentum consequat. Feugiat viverra massa
-                        urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jon Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                        class="cs-item-stars"
-                        aria-hidden="true"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                        alt="stars"
-                        width="96"
-                        height="16"
-                    />
-                </li>
-                <!-- Review 2 -->
-                <li class="cs-item">
-                    <img
-                        class="cs-item-img"
-                        aria-hidden="true"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-                        alt="profile picture"
-                        width="80"
-                        height="80"
-                    />
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin.
-                        Consequat dolor habitasse nam sed tempor. Viverra magna
-                        pharetra rhoncus, nec sed ullamcorper lectus et. Auctor
-                        velit diam fermentum consequat. Feugiat viverra massa
-                        urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jane Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                        class="cs-item-stars"
-                        aria-hidden="true"
-                        loading="lazy"
-                        decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                        alt="stars"
-                        width="96"
-                        height="16"
-                    />
-                </li>
-            </ul>
-            <a
-                aria-label="read more reviews"
-                href="/reviews"
-                class="cs-button-solid"
-                >Our Reviews</a
-            >
+            <a href="" class="cs-button-solid">Book a Free Discovery Call</a>
         </div>
-    </section>
+    </div>
+    <!--Bubble Groups-->
+    <div class="cs-bubbles cs-bubbles1" aria-hidden="true"></div>
+    <div class="cs-bubbles cs-bubbles2" aria-hidden="true"></div>
+    <!-- Background Image, background image added in the css at 1600px for parallax effect -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="assets/images/cvas-hero-m.webp">
+        <source media="(min-width: 601px)" srcset="assets/images/cvas-hero.webp">
+        <img decoding="async" src="assets/images/cvas-hero.webp" alt="A woman standing in a cavern with a waterfall and two rays of sunshine." width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
 
+<section id="services-1684">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Breathe easy with a lighter load.</span>
+            <h2 class="cs-title">Grow Your Business, Not Your Stress Level</h2>
+            <p class="cs-text">
+                As a freelancer or micro-business owner, you know the pressure of having to do it all. Emails. Calendars. CRM Updates. The list of administrative tasks never ends. It's suffocating and stressful, but it doesn't have to be. Unlock your day by partnering with Clarity VA Solutions. We are experts in taming the chaos and replacing it with zen-like order.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3"><a href="" class="cs-link">Email Inbox Management & Filtering</a></h3>
+                <p class="cs-item-text">
+                    Say goodbye to 467 unread emails. We'll sift through the noise, transforming your inbox into a calm, organized communication hub. You'll never wonder what you need to act on next.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3"><a href="" class="cs-link">Calendar & Appointment Scheduling</a></h3>
+                <p class="cs-item-text">
+                    Scheduling headaches belong in the past. With our well-managed calendar, you can enjoy smooth, efficient days. Show up prepared and never miss a beat.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3"><a href="" class="cs-link">Data Entry & CRM Updates</a></h3>
+                <p class="cs-item-text">
+                    Unorganized contacts will no longer cost you sales leads. We'll keep your client records and business data up-to-date and organized. Your CRM will always be at your fingertips whenever you need it.
+                </p>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">See How We Can Help</a>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-1456">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="assets/images/problem-image-1-m.webp">
+                <source media="(min-width: 601px)" srcset="assets/images/problem-image-1.webp">
+                <img loading="lazy" decoding="async" src="assets/images/problem-image-1.webp" alt="A chaotic, messy desk cluttered with Unorganized papers, CDs, and other items." width="500" height="729" aria-hidden="true">
+            </picture>
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="assets/images/problem-image-2-m.webp">
+                <source media="(min-width: 601px)" srcset="assets/images/problem-image-2.webp">
+                <img loading="lazy" decoding="async" src="assets/images/problem-image-2.webp" alt="A man in a dark room lit by a computer screen. His hands are on his face showing distress." width="378" height="460" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Are you struggling to keep up?</span>
+            <h2 class="cs-title">When Doing It All Feels Like Doing It Alone</h2>
+            <p class="cs-text">
+                As a solopreneur, you know that time is money, but some tasks are non-negotiable. Someone has to do the endless administrative tasks, and that someone is you. But it never ends, and you keep falling further and further behind. You find yourself:
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">Drowning in administrative tasks;</li>
+                <li class="cs-li">Missing deadlines or feeling disorganized;</li>
+                <li class="cs-li">Feeling stressed, anxious, and overwhelmed;</li>
+                <li class="cs-li">Doubting you can scale and grow your business; and</li>
+                <li class="cs-li">Neglecting your personal time, friends, and family.</li>
+            </ul>
+            <p class="cs-text">
+                What if there is a better way? What if you can reclaim your focus, your time, yourself?
+            </p>
+            <a href="" class="cs-button-solid">Book a Free Discovery Call</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    Quote                     -->
+<!-- ============================================ -->
+
+<section id="quote-1307">
+    <div class="cs-container">
+        <div class="cs-content">
+            <p class="cs-quote">
+                "In my previous administrative roles, I saw the stress, the missed opportunities, and the erosion of work-life balance. I saw a need and realized that I have the skills to help people reclaim their time. That's why I started Clarity VA Solutions."
+            </p>
+            <span class="cs-name">Sarah Jenkins</span>
+            <span class="cs-job">Owner, Clarity VA Solutions</span>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)"
+                srcset="assets/images/cvas-quote-m.webp">
+        <source media="(min-width: 601px)"
+                srcset="assets/images/cvas-quote.webp">
+        <img aria-hidden="true" loading="lazy" decoding="async"
+                src="assets/images/cvas-quote.webp"
+                alt="banking cityscape" width="360" height="316">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--              Side By Side Reverse            -->
+<!-- ============================================ -->
+
+<section id="sbsr-1462">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="assets/images/solution-image-1-m.webp">
+                <source media="(min-width: 601px)" srcset="assets/images/solution-image-1.webp">
+                <img loading="lazy" decoding="async" src="assets/images/solution-image-1.webp" alt="A peaceful, clutter-free desk with potted plants." width="500" height="729" aria-hidden="true">
+            </picture>
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="assets/images/solution-image-2.webp">
+                <source media="(min-width: 601px)" srcset="assets/images/solution-image-2.webp">
+                <img loading="lazy" decoding="async" src="assets/images/solution-image-2.webp" alt="A woman spreads her arms wide and faces the sun on a rocky shoreline." width="378" height="460" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Find Clarity and Rediscover Your Priorities</span>
+            <h2 class="cs-title">Unlock Work-Life Balance</h2>
+            <p class="cs-text">
+                Our founder, Sarah, gets it. She's seen the challenges solopreneurs and small business owners face when juggling multiple commitments. That's why she founded Clarity VA Solutions — to be the trusted partner you need to get through the day. Anyone can enjoy administrative support by hiring a virtual assistant. You don't need to hire a full-time employee to get help.
+            </p>
+            <p class="cs-text">
+                As Sarah says, "It's gratifying to know I'm helping people achieve the same kind of peace of mind and balance I strive for in my own life."
+            </p>
+            <p class="cs-text">
+                Working with a virtual assistant isn't complicated. We handle your administrative tasks, leaving you with clarity and more efficient processes. We're here to be your partner, your rock, your how-did-I-ever-get-work-done-before.
+            </p>
+            <p class="cs-text">
+                Here's how it works:
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li"><strong>Ongoing Partnership:</strong> We're in it for the long haul. Your success is our success. We start doing the tasks that drain your time and empty your cup.</li>
+                <li class="cs-li"><strong>Customized Support:</strong> We tailor our support to your needs; you won't get a one-size-fits-all package with us.</li>
+                <li class="cs-li"><strong>Seamless Integration:</strong> We work with you to integrate our support into your existing workflows.</li>
+                <li class="cs-li"><strong>Ongoing Partnership:</strong> We're in it for the long haul. Your success is our success.</li>
+            </ul>
+            <a href="" class="cs-button-solid">Book a Free Discovery Call</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-607">
+    <div class="cs-container">
+        <div id="cs-content-1792">
+            <div class="cs-content">
+                <div class="cs-flex-wrapper">
+                    <div class="cs-flex">
+                        <span class="cs-topper">Your future is bright.</span>
+                        <h2 class="cs-title">The Clarity You Crave. The Success You Deserve.</h2>
+                    </div>
+                    <a href="" class="cs-button-solid">Book a Free Discovery Call</a>
+                </div>
+                <div class="cs-wrapper">
+                    <p class="cs-text">
+                        Imagine your business as a well-oiled machine. Your inbox is calm. No more email tag to schedule meetings. Sales are rolling in with your up-to-date CRM. Pinch yourself, this isn't a dream; it can be your reality if you work with Clarity VA Solutions. We empower you to ditch the hamster wheel and actually grow your business. This looks like:
+                    </p>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-check-icon" aria-hidden="true" loading="lazy" decoding="async" src="assets/svgs/check.svg" alt="checkmark" width="20" height="20">
+                            More time working on your core business;
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-check-icon" aria-hidden="true" loading="lazy" decoding="async" src="assets/svgs/check.svg" alt="checkmark" width="20" height="20">
+                            Less stress and feeling overwhelmed;
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-check-icon" aria-hidden="true" loading="lazy" decoding="async" src="assets/svgs/check.svg" alt="checkmark" width="20" height="20">
+                            Real work-life balance;
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-check-icon" aria-hidden="true" loading="lazy" decoding="async" src="assets/svgs/check.svg" alt="checkmark" width="20" height="20">
+                            Projecting a professional image; and
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-check-icon" aria-hidden="true" loading="lazy" decoding="async" src="assets/svgs/check.svg" alt="checkmark" width="20" height="20">
+                            Peace of mind.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="assets/svgs/quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">More Income</h3>
+                <p class="cs-item-text">
+                    After Sarah took over my email management, I suddenly found myself with an extra 10 hours a week to dedicate to design projects. That directly translated into a significant increase in my income that month. It was incredible.
+                </p>
+                <span class="cs-name">Olivia D.</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="assets/svgs/quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Stress-Free Scheduling</h3>
+                <p class="cs-item-text">
+                    Having Sarah manage my calendar and appointments completely eliminated the stress of double-booking. I no longer worried about missing calls or overlapping meetings, freeing me up to focus entirely on my coaching sessions.
+                </p>
+                <span class="cs-name">Mark T.</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="assets/svgs/quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Accurate Data, Easy Access</h3>
+                <p class="cs-item-text">
+                    My data entry and CRM updates used to be a massive time sink. Sarah saved me countless hours, and now I have peace of mind knowing all my client information is accurate and readily available exactly when I need it.
+                </p>
+                <span class="cs-name">James P.</span>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
     {% include 'components/cta.html' %}
 {% endblock %}
