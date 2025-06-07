@@ -850,6 +850,9 @@
   body.dark-mode #cs-content-1792 .cs-title, body.dark-mode #cs-content-1792 .cs-text, body.dark-mode #cs-content-1792 .cs-li {
     color: var(--bodyTextColorWhite);
   }
+  body.dark-mode #cs-content-1792 .cs-topper {
+    color: var(--topperColorLight);
+  }
   body.dark-mode #cs-content-1792 .cs-text, body.dark-mode #cs-content-1792 .cs-li {
     opacity: 0.8;
   }

@@ -999,6 +999,11 @@
             .cs-title, .cs-text, .cs-li {
                 color: var(--bodyTextColorWhite);
             }
+
+            .cs-topper {
+                color: var(--topperColorLight)
+            }
+
             .cs-text, .cs-li {
                 opacity: 0.8;
             }
