@@ -216,7 +216,7 @@
         font-style: normal;
         font-family: "Inter";
         font-weight: 400;
-        font-display: swap;
+        font-display: optional;
         src:
             local(""),
             url("/assets/fonts/inter-v19-latin-regular.woff2") format("woff2"),
@@ -227,7 +227,7 @@
         font-style: italic;
         font-family: "Inter";
         font-weight: 400;
-        font-display: swap;
+        font-display: optional;
         src:
             local(""),
             url("/assets/fonts/inter-v19-latin-italic.woff2") format("woff2"),
@@ -238,7 +238,7 @@
         font-style: normal;
         font-family: "Inter";
         font-weight: 500;
-        font-display: swap;
+        font-display: optional;
         src:
             local(""),
             url("/assets/fonts/inter-v19-latin-500.woff2") format("woff2"),
@@ -249,7 +249,7 @@
         font-style: italic;
         font-family: "Inter";
         font-weight: 500;
-        font-display: swap;
+        font-display: optional;
         src:
             local(""),
             url("/assets/fonts/inter-v19-latin-500italic.woff2") format("woff2"),
@@ -260,7 +260,7 @@
         font-style: normal;
         font-family: "Inter";
         font-weight: 700;
-        font-display: swap;
+        font-display: optional;
         src:
             local(""),
             url("/assets/fonts/inter-v19-latin-700.woff2") format("woff2"),
@@ -271,7 +271,7 @@
         font-style: italic;
         font-family: "Inter";
         font-weight: 700;
-        font-display: swap;
+        font-display: optional;
         src:
             local(""),
             url("/assets/fonts/inter-v19-latin-700italic.woff2") format("woff2"),
