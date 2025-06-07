@@ -608,7 +608,7 @@
   }
   #cs-navigation .cs-li-link {
     /* 16px - 24px */
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: 1rem;
     line-height: 1.2em;
     text-decoration: none;
     margin: 0;
@@ -870,6 +870,7 @@
     align-items: center;
     /* absolutely positioned to be dead center */
     position: absolute;
+    padding: 0 1rem 0 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -883,7 +884,7 @@
     justify-content: flex-start;
     align-items: center;
     /* 20px - 36px */
-    gap: clamp(1.25rem, 2.6vw, 2.25rem);
+    gap: clamp(0.25rem, 2.3vw, 2rem);
   }
   #cs-navigation .cs-li {
     list-style: none;
@@ -895,7 +896,7 @@
     flex: none;
   }
   #cs-navigation .cs-li-link {
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
