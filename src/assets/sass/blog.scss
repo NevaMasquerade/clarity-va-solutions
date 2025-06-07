@@ -292,7 +292,6 @@
             top: 0;
             left: 0;
             content: "";
-            opacity: 0.7;
             display: block;
             background: #000;
             height: 100%;
@@ -506,7 +505,6 @@
                 }
                 p,
                 li {
-                    opacity: 0.8;
                     color: var(--bodyTextColorWhite);
                 }
                 a {

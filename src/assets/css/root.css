@@ -162,7 +162,7 @@
   }
   p,
   li {
-    color: #353535;
+    color: var(--bodyTextColor);
   }
   a:hover,
   button:hover {
