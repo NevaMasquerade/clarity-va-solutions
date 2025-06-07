@@ -9,7 +9,6 @@ author: Sarah Jenkins
 date: 2025-06-04T15:55:00.000Z
 tags:
   - post
-  - featured
 image: /assets/images/blog/strategic-delegation.jpg
 imageAlt: A chess board. The white king is on it's side and is surrounded by the
   other chess pieces.
