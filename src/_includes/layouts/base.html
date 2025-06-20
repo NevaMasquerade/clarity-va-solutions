@@ -44,6 +44,14 @@
             rel="preload"
             as="font"
             type="font/woff2"
+            href="/assets/fonts/inter-v19-latin-500.woff2"
+            crossorigin
+        />
+
+        <link
+            rel="preload"
+            as="font"
+            type="font/woff2"
             href="/assets/fonts/inter-v19-latin-700.woff2"
             crossorigin
         />
@@ -54,8 +62,8 @@
         {% endif %}
 
         <!-- Sitewide Stylesheets and Scripts -->
-        <link rel="stylesheet" href="/assets/css/root.css" />
-        <link rel="stylesheet" href="/assets/css/dark.css" />
+        <link rel="stylesheet" href="/assets/css/root.css"  media="print" onload="this.media='all'; this.onload=null;" />
+        <link rel="stylesheet" href="/assets/css/dark.css"  media="print" onload="this.media='all'; this.onload=null;" />
         <script defer src="/assets/js/dark.js"></script>
         <script defer src="/assets/js/nav.js"></script>
 
